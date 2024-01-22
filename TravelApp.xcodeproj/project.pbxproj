@@ -14,6 +14,7 @@
 		EBBB8B062B5BF94C0057B86C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B052B5BF94C0057B86C /* Location.swift */; };
 		EBBB8B082B5BF9810057B86C /* PlaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B072B5BF9810057B86C /* PlaceType.swift */; };
 		EBBB8B0A2B5BF9BE0057B86C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B092B5BF9BE0057B86C /* Place.swift */; };
+		EBBB8B102B5E0AEF0057B86C /* LocationCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EBBB8B052B5BF94C0057B86C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		EBBB8B072B5BF9810057B86C /* PlaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceType.swift; sourceTree = "<group>"; };
 		EBBB8B092B5BF9BE0057B86C /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 		EBBB8AF52B5A08490057B86C /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				EBBB8B0E2B5E06320057B86C /* ViewModels */,
+				EBBB8B0C2B5E060B0057B86C /* Views */,
 				EBBB8B042B5BF93A0057B86C /* Models */,
 				EBBB8AF62B5A08490057B86C /* TravelAppApp.swift */,
-				EBBB8AF82B5A08490057B86C /* ContentView.swift */,
 				EBBB8AFA2B5A084A0057B86C /* Assets.xcassets */,
 				EBBB8AFC2B5A084A0057B86C /* Preview Content */,
 			);
@@ -82,6 +85,22 @@
 				EBBB8B092B5BF9BE0057B86C /* Place.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EBBB8B0C2B5E060B0057B86C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB8AF82B5A08490057B86C /* ContentView.swift */,
+				EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBBB8B0E2B5E06320057B86C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +178,7 @@
 				EBBB8B062B5BF94C0057B86C /* Location.swift in Sources */,
 				EBBB8AF72B5A08490057B86C /* TravelAppApp.swift in Sources */,
 				EBBB8B0A2B5BF9BE0057B86C /* Place.swift in Sources */,
+				EBBB8B102B5E0AEF0057B86C /* LocationCarouselView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

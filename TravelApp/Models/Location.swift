@@ -8,6 +8,11 @@
 import Foundation
 
 class Location: ObservableObject {
-    var title: String = ""
-    var imageName: String = ""
+    var title: String
+    var imageName: String
+    
+    init(title: String, imageName: String) {
+        self.title = title
+        self.imageName = imageName
+    }
 }

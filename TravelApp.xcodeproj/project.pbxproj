@@ -15,6 +15,7 @@
 		EBBB8B082B5BF9810057B86C /* PlaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B072B5BF9810057B86C /* PlaceType.swift */; };
 		EBBB8B0A2B5BF9BE0057B86C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B092B5BF9BE0057B86C /* Place.swift */; };
 		EBBB8B102B5E0AEF0057B86C /* LocationCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */; };
+		EBBB8B122B61CF630057B86C /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B112B61CF630057B86C /* LocationCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EBBB8B072B5BF9810057B86C /* PlaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceType.swift; sourceTree = "<group>"; };
 		EBBB8B092B5BF9BE0057B86C /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCarouselView.swift; sourceTree = "<group>"; };
+		EBBB8B112B61CF630057B86C /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				EBBB8AF82B5A08490057B86C /* ContentView.swift */,
 				EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */,
+				EBBB8B112B61CF630057B86C /* LocationCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				EBBB8B062B5BF94C0057B86C /* Location.swift in Sources */,
 				EBBB8AF72B5A08490057B86C /* TravelAppApp.swift in Sources */,
 				EBBB8B0A2B5BF9BE0057B86C /* Place.swift in Sources */,
+				EBBB8B122B61CF630057B86C /* LocationCard.swift in Sources */,
 				EBBB8B102B5E0AEF0057B86C /* LocationCarouselView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

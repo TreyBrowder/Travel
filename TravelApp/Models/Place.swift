@@ -9,7 +9,7 @@ import Foundation
 
 class Place: ObservableObject {
     var type: PlaceType = .unknown
-    var location = Location()
+    var location = Location(title: "", imageName: "")
     var title: String = ""
     var description: String = ""
     var imageName: String = ""

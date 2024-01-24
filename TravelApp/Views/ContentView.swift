@@ -25,7 +25,7 @@ struct ContentView: View {
                             .padding()
                         
                         LocationCarouselView()
-                            .padding()
+                            
                     }
                 }
             }
@@ -36,4 +36,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+       
 }

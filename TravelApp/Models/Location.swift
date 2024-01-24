@@ -7,7 +7,9 @@
 
 import Foundation
 
-class Location: ObservableObject {
+class Location: ObservableObject, Identifiable {
+    
+    var id = UUID()
     var title: String
     var imageName: String
     

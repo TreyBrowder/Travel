@@ -17,6 +17,7 @@
 		EBBB8B102B5E0AEF0057B86C /* LocationCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */; };
 		EBBB8B122B61CF630057B86C /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B112B61CF630057B86C /* LocationCard.swift */; };
 		EBBB8B142B61DB8A0057B86C /* FilterButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B132B61DB8A0057B86C /* FilterButtonsView.swift */; };
+		EBBB8B162B631E300057B86C /* PlaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8B152B631E300057B86C /* PlaceCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCarouselView.swift; sourceTree = "<group>"; };
 		EBBB8B112B61CF630057B86C /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
 		EBBB8B132B61DB8A0057B86C /* FilterButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonsView.swift; sourceTree = "<group>"; };
+		EBBB8B152B631E300057B86C /* PlaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				EBBB8B0F2B5E0AEF0057B86C /* LocationCarouselView.swift */,
 				EBBB8B112B61CF630057B86C /* LocationCard.swift */,
 				EBBB8B132B61DB8A0057B86C /* FilterButtonsView.swift */,
+				EBBB8B152B631E300057B86C /* PlaceCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				EBBB8B142B61DB8A0057B86C /* FilterButtonsView.swift in Sources */,
 				EBBB8B062B5BF94C0057B86C /* Location.swift in Sources */,
 				EBBB8AF72B5A08490057B86C /* TravelAppApp.swift in Sources */,
+				EBBB8B162B631E300057B86C /* PlaceCardView.swift in Sources */,
 				EBBB8B0A2B5BF9BE0057B86C /* Place.swift in Sources */,
 				EBBB8B122B61CF630057B86C /* LocationCard.swift in Sources */,
 				EBBB8B102B5E0AEF0057B86C /* LocationCarouselView.swift in Sources */,

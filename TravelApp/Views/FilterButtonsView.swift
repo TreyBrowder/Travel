@@ -28,7 +28,7 @@ struct FilterButtonsView: View {
                         Text(name)
                             .bold()
                             .frame(width: 150, height: 75, alignment: .center)
-                            .background(Color.white)
+                            .background(Color(.secondarySystemBackground))
                             .cornerRadius(10)
                             .padding(.leading, 10)
                     }

@@ -37,15 +37,28 @@ struct ContentView: View {
                         FilterButtonsView(type: $filterType)
                         
                         VStack {
-                            ForEach(placeModel) {place in
-                                NavigationLink (
-                                    destination:
-                                        Text("destination placeholder"),
-                                    label: {
-                                    PlaceCardView(placeModel: place)
-                                        .cornerRadius(12)
-                                        .padding()
-                                })
+                            ForEach(placeModel) { place in
+                                if filterType == nil {
+                                    NavigationLink (
+                                        destination:
+                                            Text("destination placeholder"),
+                                        label: {
+                                        PlaceCardView(placeModel: place)
+                                            .cornerRadius(12)
+                                            .padding()
+                                    })
+                                }
+                                else if let filterType = self.filterType,
+                                            filterType == place.type {
+                                    NavigationLink (
+                                        destination:
+                                            Text("destination placeholder"),
+                                        label: {
+                                        PlaceCardView(placeModel: place)
+                                            .cornerRadius(12)
+                                            .padding()
+                                    })
+                                }
                             }
                         }
                     }

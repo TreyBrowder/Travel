@@ -7,9 +7,10 @@
 
 import Foundation
 
-enum PlaceType {
+enum PlaceType: String, CaseIterable {
     case resturant
     case mall
     case sportingVenue
+    case airport
     case unknown
 }

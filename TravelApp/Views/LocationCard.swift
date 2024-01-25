@@ -32,8 +32,3 @@ struct LocationCard: View {
         }
     }
 }
-
-//#Preview {
-//    let model = Location(title: "", imageName: "")
-//    LocationCard(model: model)
-//}

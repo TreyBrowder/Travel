@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var searchTerm = ""
+    @State var filterType: PlaceType?
     
     var body: some View {
         NavigationView {
@@ -25,7 +26,7 @@ struct ContentView: View {
                             .padding()
                         
                         LocationCarouselView()
-                            
+                        FilterButtonsView(type: $filterType)
                     }
                 }
             }
@@ -36,5 +37,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-       
 }
+

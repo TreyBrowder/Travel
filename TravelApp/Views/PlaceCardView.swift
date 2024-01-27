@@ -43,3 +43,4 @@ struct PlaceCardView: View {
         .background(Color(.secondarySystemBackground))
     }
 }
+

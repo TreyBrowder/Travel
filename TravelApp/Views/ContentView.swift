@@ -38,26 +38,48 @@ struct ContentView: View {
                         
                         VStack {
                             ForEach(placeModel) { place in
-                                if filterType == nil {
-                                    NavigationLink (
-                                        destination:
-                                            Text("destination placeholder"),
-                                        label: {
-                                        PlaceCardView(placeModel: place)
-                                            .cornerRadius(12)
-                                            .padding()
-                                    })
+                                if searchTerm.isEmpty {
+                                    if filterType == nil {
+                                        NavigationLink (
+                                            destination: Text("placeholder"),
+                                            label: {
+                                            PlaceCardView(placeModel: place)
+                                                .cornerRadius(12)
+                                                .padding()
+                                        })
+                                    }
+                                    else if let filterType = self.filterType, filterType == place.type {
+                                        NavigationLink (
+                                            destination: Text("destination placeholder"),
+                                            label: {
+                                            PlaceCardView(placeModel: place)
+                                                .cornerRadius(12)
+                                                .padding()
+                                        })
+                                    }
                                 }
-                                else if let filterType = self.filterType,
-                                            filterType == place.type {
-                                    NavigationLink (
-                                        destination:
-                                            Text("destination placeholder"),
-                                        label: {
-                                        PlaceCardView(placeModel: place)
-                                            .cornerRadius(12)
-                                            .padding()
-                                    })
+                                else {
+                                    if place.title.lowercased().hasPrefix(searchTerm.lowercased()) {
+                                        if filterType == nil {
+                                            NavigationLink (
+                                                destination: Text("destination placeholder"),
+                                                label: {
+                                                PlaceCardView(placeModel: place)
+                                                    .cornerRadius(12)
+                                                    .padding()
+                                            })
+                                        }
+                                        else if let filterType = self.filterType,
+                                                    filterType == place.type {
+                                            NavigationLink (
+                                                destination: Text("destination placeholder"),
+                                                label: {
+                                                PlaceCardView(placeModel: place)
+                                                    .cornerRadius(12)
+                                                    .padding()
+                                            })
+                                        }
+                                    }
                                 }
                             }
                         }

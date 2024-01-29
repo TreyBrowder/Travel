@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB64DD512B6581D3000D19F8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB64DD502B6581D3000D19F8 /* WebView.swift */; };
 		EBBB8AF72B5A08490057B86C /* TravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8AF62B5A08490057B86C /* TravelAppApp.swift */; };
 		EBBB8AF92B5A08490057B86C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8AF82B5A08490057B86C /* ContentView.swift */; };
 		EBBB8AFB2B5A084A0057B86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBB8AFA2B5A084A0057B86C /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB64DD502B6581D3000D19F8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		EBBB8AF32B5A08490057B86C /* TravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBB8AF62B5A08490057B86C /* TravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppApp.swift; sourceTree = "<group>"; };
 		EBBB8AF82B5A08490057B86C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				EBBB8B112B61CF630057B86C /* LocationCard.swift */,
 				EBBB8B132B61DB8A0057B86C /* FilterButtonsView.swift */,
 				EBBB8B152B631E300057B86C /* PlaceCardView.swift */,
+				EB64DD502B6581D3000D19F8 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBBB8AF92B5A08490057B86C /* ContentView.swift in Sources */,
+				EB64DD512B6581D3000D19F8 /* WebView.swift in Sources */,
 				EBBB8B082B5BF9810057B86C /* PlaceType.swift in Sources */,
 				EBBB8B142B61DB8A0057B86C /* FilterButtonsView.swift in Sources */,
 				EBBB8B062B5BF94C0057B86C /* Location.swift in Sources */,

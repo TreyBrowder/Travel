@@ -2,6 +2,13 @@
 //  ContentView.swift
 //  TravelApp
 //
+//This is app is just to demo immplement a web view within a swiftUI app
+//none of the actual contents/info used in the app is accurate nor true, only
+//for fun
+//
+//content view could be factored down more - but again the purpose of this app
+//was just to get practice implement a webview into a swiftUI app. 
+//
 //  Created by Trey Browder on 1/18/24.
 //
 
@@ -41,7 +48,7 @@ struct ContentView: View {
                                 if searchTerm.isEmpty {
                                     if filterType == nil {
                                         NavigationLink (
-                                            destination: Text("placeholder"),
+                                            destination: WebView(stringURL: "https://www.google.com/search?q=almafi+coast"),
                                             label: {
                                             PlaceCardView(placeModel: place)
                                                 .cornerRadius(12)
@@ -50,7 +57,7 @@ struct ContentView: View {
                                     }
                                     else if let filterType = self.filterType, filterType == place.type {
                                         NavigationLink (
-                                            destination: Text("destination placeholder"),
+                                            destination: WebView(stringURL: "https://www.google.com/search?q=almafi+coast"),
                                             label: {
                                             PlaceCardView(placeModel: place)
                                                 .cornerRadius(12)
@@ -62,7 +69,7 @@ struct ContentView: View {
                                     if place.title.lowercased().hasPrefix(searchTerm.lowercased()) {
                                         if filterType == nil {
                                             NavigationLink (
-                                                destination: Text("destination placeholder"),
+                                                destination: WebView(stringURL: "https://www.google.com/search?q=almafi+coast"),
                                                 label: {
                                                 PlaceCardView(placeModel: place)
                                                     .cornerRadius(12)
@@ -72,7 +79,7 @@ struct ContentView: View {
                                         else if let filterType = self.filterType,
                                                     filterType == place.type {
                                             NavigationLink (
-                                                destination: Text("destination placeholder"),
+                                                destination: WebView(stringURL: "https://www.google.com/search?q=almafi+coast"),
                                                 label: {
                                                 PlaceCardView(placeModel: place)
                                                     .cornerRadius(12)

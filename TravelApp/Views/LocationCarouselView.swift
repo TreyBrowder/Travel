@@ -25,7 +25,7 @@ struct LocationCarouselView: View {
             HStack {
                 ForEach(locations) { model in
                     NavigationLink(
-                        destination: Text(model.title),
+                        destination: LocationDetailView(title: model.title),
                         label: {
                             LocationCard(model: model)
                                 .frame(width: 310, height: 170, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -35,6 +35,19 @@ struct LocationCarouselView: View {
                         })
                 }
             }
+        }
+    }
+}
+
+struct LocationDetailView: View {
+    var title: String
+    
+    var body: some View {
+        ScrollView(showsIndicators: false){
+            VStack {
+                
+            }
+            .navigationTitle(title)
         }
     }
 }
